@@ -12,7 +12,7 @@ const Contact = () => {
         <input type="text" placeholder="Email" className="border w-full h-5 py-6" />
         <textarea className='w-full py-6 border' placeholder="Your questions here"></textarea>
         <div className='flex justify-between items-baseline'>
-          <button className="mt-4 bg-indigo-500 text-white p-3 hover:scale-105 ease-in duration-300" type="submit">Send question</button>
+          <button className="mt-4 bg-indigo-500 text-white p-3 hover:scale-105 ease-in duration-300" type="submit">Send question </button>
         </div>
       </div>
     </div>
