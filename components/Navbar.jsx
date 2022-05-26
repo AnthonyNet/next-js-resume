@@ -28,21 +28,21 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm uppercase hover:border-y-4 border-indigo-500 ease-in duration-30">Home</li>
+            </Link>
+            <Link href="/" className="">
+              <li className="ml-10 text-sm uppercase hover:border-y-4 border-indigo-500 ease-in duration-300">About</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm uppercase hover:border-y-4 border-indigo-500 ease-in duration-30">Skills</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
-            </Link>
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-y-4 border-indigo-500 ease-in duration-30">
                 Projects
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-y-4 border-indigo-500 ease-in duration-30">
                 Contact
               </li>
             </Link>
@@ -84,10 +84,10 @@ const Navbar = () => {
             <div className="py-4 flex flex-col">
               <ul className="uppercase">
                 <Link  href="/">
-                  <li onClick={()=>{setNav(false)}} className="py-4 text-sm">Home</li>
+                  <li onClick={()=>{setNav(false)}} className="py-4 text-sm">Homee</li>
                 </Link>
                 <Link  href="/">
-                  <li onClick={()=>{setNav(false)}} className="py-4 text-sm">About</li>
+                  <li onClick={()=>{setNav(false)}} className="py-4 text-sm ">About</li>
                 </Link>
                 <Link  href="/">
                   <li onClick={()=>{setNav(false)}} className="py-4 text-sm">Skills</li>
