@@ -19,7 +19,7 @@ const Skills = () => {
                   width='64px'
                   height='64px'
                   alt='/'
-                />
+                ></Image>
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>HTML</h3>
@@ -34,7 +34,7 @@ const Skills = () => {
                   width='64px'
                   height='64px'
                   alt='/'
-                />
+                ></Image>
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>CSS</h3>
