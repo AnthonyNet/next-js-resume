@@ -1,4 +1,7 @@
 import React from 'react';
+import Image from 'next/image';
+
+import imgLaptop from '../public/assets/projects/languages.png';
 
 const About = () => {
   return (
@@ -6,7 +9,7 @@ const About = () => {
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
 
       <div className='w-full m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-            <img className='rounded-xl min-h-[350px]' src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.businessinsider.com%2Fimage%2F5cee91c511e2050c9b3d4c68.jpg&f=1&nofb=1" alt="/" />
+            <Image className='rounded-xl min-h-[350px]' src={imgLaptop} alt="/" />
         </div>
 
         <div className='col-span-2'>
