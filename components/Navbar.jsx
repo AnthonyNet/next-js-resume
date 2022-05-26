@@ -68,7 +68,7 @@ const Navbar = () => {
             <div>
               <div className="flex w-full items¨center justify-between">
                 <Image
-                  src="/../public/assets/navLogo.png"
+                  src={require("../public/assets/logo.png")}
                   width="87"
                   height="35"
                   alt="/"
