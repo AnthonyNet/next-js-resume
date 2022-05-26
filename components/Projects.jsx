@@ -1,13 +1,13 @@
 import React from 'react'
-import Link from 'next/link';
-import Image from 'next/image';
+import ProjectItem from '../components/ProjectItem';
+
 import languages from '../public/assets/projects/languages.png';
 import workman from '../public/assets/projects/react-remeslnik.png';
 import resume from '../public/assets/projects/react-cv.png';
 import resumeOld from '../public/assets/projects/old-cv.png';
 import workmanOld from '../public/assets/projects/remeslnik.png';
 import bootstrap from '../public/assets/projects/bootstrap-web.png';
-import ProjectItem from '../components/ProjectItem';
+
 
 const Projects = () => {
   return (
