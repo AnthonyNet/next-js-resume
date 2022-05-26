@@ -22,7 +22,7 @@ const Navbar = () => {
             alt="/"
             width="125"
             height="50"
-          />
+          ></Image>
        </Link>
 
         <div>
