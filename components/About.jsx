@@ -9,7 +9,7 @@ const About = () => {
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
 
       <div className='w-full m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-            <Image className='rounded-xl min-h-[350px]' src={imgLaptop} alt="/" />
+            <Image className='rounded-xl min-h-[350px]' src={imgLaptop} alt="/"></Image>
         </div>
 
         <div className='col-span-2'>
